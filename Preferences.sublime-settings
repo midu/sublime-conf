@@ -1,5 +1,9 @@
 {
-	"color_scheme": "Packages/User/themes/Railscasts.tmTheme",
-	"font_size": 16.0,
-	"font_face": "Bitstream Vera Sans Mono"
+	"auto_indent": true,
+	"color_scheme": "Packages/Theme - Railscast/Railscasts.tmTheme",
+	"font_face": "Bitstream Vera Sans Mono",
+	"font_size": 23.0,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
