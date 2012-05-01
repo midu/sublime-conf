@@ -271,6 +271,98 @@
 				<string>#2F33AB</string>
 			</dict>
 		</dict>
+
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Annotations</string>
+		    <key>scope</key>
+		    <string>sublimelinter.notes</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#FFFFAA</string>
+		        <key>foreground</key>
+		        <string>#FFFFFF</string>
+		    </dict>
+		</dict>
+
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Error Underline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.underline.illegal</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#FF0000</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Warning Underline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.underline.warning</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#00FF00</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Violation Underline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.underline.violation</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#0000FF</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Error Outline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.outline.illegal</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#232323</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Violation Outline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.outline.violation</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#232323</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Warning Outline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.outline.warning</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#232323</string>
+		    </dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>SublimeLinter Warning Underline</string>
+		    <key>scope</key>
+		    <string>sublimelinter.underline.warning</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>background</key>
+		        <string>#00ff00</string>
+		    </dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>B80CD0D8-613C-46FD-9C06-A1201108BC2A</string>
