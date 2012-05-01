@@ -4,13 +4,19 @@ This is my very personal conf. I'm still building this so there's a lot missing.
 
 I'll add the bundles/packages when I have time.
 
+### Make your life easier
+
+```sh
+➜  ~  ln -s Library/Application\ Support/Sublime\ Text\ 2/Packages sublime
+```
+
 ### Install
 
 I put the stuff in the User folder in the Packages folder of Sublime so there's 0 risk of losing my conf when I upgrade Sublime
 
-```bash
-mv ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User.backup
-cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+```sh
+cd ~/sublime
+mv User User.backup # so you don't lose your previous chances
 git clone git@github.com:midu/sublime-conf.git User
 ```
 
