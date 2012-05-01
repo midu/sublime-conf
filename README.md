@@ -32,7 +32,44 @@ Uses the [Railscasts theme](http://railscasts.com/about), wich means you'll need
 
 I also set a big ass `23 points` font size because I have a big screen and I like to see my text.
 
-#### Bundles
+### Bundles
 
-_to add_
+#### [SublimeLinter](https://github.com/Kronuz/SublimeLinter)
+
+![](http://i.pb.lc/0S3D1C1w0X3S1A2S3a33/Screen%20shot%202012-05-01%20at%2012.01.33%20PM.png)
+
+_Lints and adds inline hightlights of errors in a bunch of languages._
+
+##### Install:
+
+```sh
+cd ~/sublime
+git clone https://github.com/Kronuz/SublimeLinter
+```
+
+You also need `jshint` in the $PATH.
+
+```sh
+npm install jshint
+```
+
+If you don't have node, do this first:
+
+```sh
+brew install node # installs node
+curl http://npmjs.org/install.sh | sh # installs npm
+```
+
+Then add in your shellrc file:
+
+```sh
+NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules # or whatever path node gives you when you run brew install node
+```
+
+And you'll need to add the output of `npm bin` to your $PATH
+
+##### Customizations
+
+- [changed the theme](https://github.com/midu/sublime-conf/commit/b28b79a8e5f317dff2a075fcfcdf002060caea8c#diff-2) so the outline is "invisible"
+- on save, errors show in the popup
 
