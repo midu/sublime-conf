@@ -34,7 +34,8 @@
 		".hg",
 		"CVS",
 		"log",
-		"tmp", "solr"
+		"tmp",
+		"solr"
 	],
 	"font_face": "Bitstream Vera Sans Mono",
 	"font_size": 21.0,
