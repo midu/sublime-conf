@@ -73,3 +73,26 @@ And you'll need to add the output of `npm bin` to your $PATH
 - [changed the theme](https://github.com/midu/sublime-conf/commit/b28b79a8e5f317dff2a075fcfcdf002060caea8c#diff-2) so the outline is "invisible"
 - on save, errors show in the popup
 
+#### DetectSyntax
+
+DetectSyntax allows to set up custom rules to configure what syntax Sublime should use.
+
+Example:
+
+Textmate shows `git commit -v` a diff. Sublime won't because it doesn't respect the diff rules (ie, start with `diff` or have the filename ending in .diff).
+
+This configuration will match the Diff syntax to any file called `COMMIT_EDITMSG`:
+
+![so meta](http://i.pb.lc/0U3l3b3t0V2z2K3I3Q3n/Screen%20shot%202012-06-15%20at%203.32.50%20PM.png)
+
+With DetectSyntax you can setup custom rules without having to override the official Sublime Packages (and lose it when you upgrade).
+
+
+
+##### Install
+
+```sh
+cd ~/sublime
+git clone https://github.com/phillipkoebbe/DetectSyntax.git
+```
+
