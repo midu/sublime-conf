@@ -34,6 +34,12 @@
 	"reraise_exceptions": false,
 	"syntaxes": [
 		{
+			"name": "Diff",
+			"rules": [
+				{"file_name": ".*COMMIT_EDITMSG$"}
+			]
+		},
+		{
 			// I put XML first because of files like *.tmLanguage. It is unlikely that this rule will result in a
 			// false positive, meaning if it matches, you probably want the XML syntax
 			"name": "XML",
